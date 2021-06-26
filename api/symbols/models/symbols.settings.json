@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "symbols",
+  "info": {
+    "name": "Symbols",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "long_form": {
+      "type": "string"
+    },
+    "share_volume": {
+      "type": "string"
+    },
+    "strock_price": {
+      "type": "string"
+    },
+    "change_amount": {
+      "type": "float"
+    }
+  }
+}

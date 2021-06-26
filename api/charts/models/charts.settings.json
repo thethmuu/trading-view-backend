@@ -38,6 +38,12 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "charts"
+    },
+    "date": {
+      "type": "date"
+    },
+    "symbol": {
+      "model": "symbols"
     }
   }
 }
