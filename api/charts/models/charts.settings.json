@@ -43,7 +43,8 @@
       "type": "date"
     },
     "symbol": {
-      "model": "symbols"
+      "model": "symbols",
+      "via": "charts"
     }
   }
 }

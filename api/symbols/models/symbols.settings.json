@@ -21,11 +21,15 @@
     "share_volume": {
       "type": "string"
     },
-    "strock_price": {
+    "stock_price": {
       "type": "string"
     },
     "change_amount": {
       "type": "float"
+    },
+    "charts": {
+      "via": "symbol",
+      "collection": "charts"
     }
   }
 }
